@@ -1,5 +1,14 @@
 tree : tree.c
 	gcc -o tree tree.c
 
-run : tree
+run_tree : tree
 	.\tree
+
+linked : linked.c
+	gcc -o linked linked.c
+
+run_linked : linked
+	.\linked
+
+
+
